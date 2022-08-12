@@ -1,7 +1,7 @@
 # Negyedidős vizsga
 
 Végezd el a követekző feladatokat! Fussanak le sikeresen a TownInfoTest osztályban található tesztek!
-A feladat leírások csak az általános követelményt írják le. Használd a vonatkozó teszteket, hogy a metódusaid a megfelelő elnevezéseke valamint bemeneti és kimeneti értékeket használják!
+A feladat leírások csak az általános követelményt írják le. Használd a vonatkozó teszteket, hogy a metódusaid a megfelelő elnevezéseket valamint bemeneti és kimeneti értékeket használják!
 
 ### Első feladat
 Hozd létre a három szükséges osztályt az src.main.java.hu.progmasters.quarterexam package-ben!
