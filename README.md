@@ -1,4 +1,4 @@
-# Negyedidős vizsga
+# Negyedidős pót vizsga
 
 Végezd el a követekző feladatokat! Fussanak le sikeresen a TownInfoTest osztályban található tesztek!
 A feladat leírások csak az általános követelményt írják le. Használd a vonatkozó teszteket, hogy a metódusaid a megfelelő elnevezéseket valamint bemeneti és kimeneti értékeket használják!
@@ -16,16 +16,10 @@ Hozz létre egy metódust, amely megmondja, hogy ki az adott városban jelenleg 
 Hozz létre egy metódust, amely megszámolja az adott polgármester nevében az 'a' és 'e' betűket!
 
 ### Negyedik feladat
-Hozz létre egy metódust, amely megmondja, hogy az adott városban megfelelő-e a népsűrűség! Vagyis a népesség és a terület aránya hol helyezkedik el egy határértékhez képest.
-
-### Ötödik feladat
 Hozz létre egy metódust, amely megmondja, hogy az adott város népessége osztható-e maradék nélkül egy adott számmal!
 
-### Hatodik feladat
+### Ötödik feladat
 Hozz létre egy metódust, amely egy tömbben visszaadja az adott város jelenlegi polgármesterének korát, az előző polgármesterének korát, valamint a kettő korkülönbségét!
 
-### Hetedik feladat
+### Hatodik feladat
 Hozz létre egy metódust, amely megmondja az adott polgármester második nevét!
-
-### Nyolcadik feladat
-Hozz létre egy metódust, amely megmondja, hogy az adott városban a jelenlegi vagy az előző polgármester az idősebb!

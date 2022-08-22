@@ -37,16 +37,6 @@ public class TownInfoTest {
 
     // 4.
     @Test
-    void testIsThisTownCrowded() {
-        Town town = new Town();
-        town.setPopulation(1000);
-        town.setArea(20);
-        assertEquals("Just fine", townInfo.isThisTownCrowded(town, 60));
-        assertEquals("Too many people", townInfo.isThisTownCrowded(town, 40));
-    }
-
-    // 5.
-    @Test
     void testIsPopulationDivisibleByNumber() {
         Town town = new Town();
         town.setPopulation(1000);
@@ -57,7 +47,7 @@ public class TownInfoTest {
         assertTrue(townInfo.isPopulationDivisibleByNumber(town, 8));
     }
 
-    // 6.
+    // 5.
     @Test
     void testGetMayorAgeInfo() {
         Town town = new Town();
@@ -77,25 +67,12 @@ public class TownInfoTest {
         assertEquals(16, mayorAgeInfo2[2]);
     }
 
-    // 7.
+    // 6.
     @Test
     void testGetSecondName() {
         Mayor mayor = new Mayor("Alexander Fleming", 49);
         assertEquals("Fleming", townInfo.getSecondName(mayor));
         mayor.setName("Albert Einstein");
         assertEquals("Einstein", townInfo.getSecondName(mayor));
-    }
-
-    // 6.
-    @Test
-    void testGetOlderMayor() {
-        Town town = new Town();
-        Mayor currentMayor = new Mayor("Alexander Fleming", 49);
-        Mayor previousMayor = new Mayor("Albert Einstein", 61);
-        town.setCurrentMayor(currentMayor);
-        town.setPreviousMayor(previousMayor);
-        assertEquals(previousMayor, townInfo.getOlderMayor(town));
-        previousMayor.setAge(42);
-        assertEquals(currentMayor, townInfo.getOlderMayor(town));
     }
 }
